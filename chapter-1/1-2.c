@@ -11,9 +11,8 @@ The compiler outputs -> warning: unknown escape sequence: '\l'
 The executable simply prints l
 */
 
-int main()
-{
-    printf("\l\n");
+int main() {
+  printf("\l\n");
 
-    return 0;
+  return 0;
 }

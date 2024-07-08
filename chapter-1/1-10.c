@@ -11,23 +11,21 @@ After compiling run ./a.out < input.txt
 on the terminal to use the text file as input.
  */
 
-int main()
-{
-    int c;
+int main() {
+  int c;
 
-    while ((c = getchar()) != EOF)
-    {
-        if (c == '\t')
-            printf("\\t");
-        else if (c == ' ')
-            printf("\\b");
-        else if (c == '\\')
-            printf("\\\\");
-        else
-            putchar(c);
-    }
+  while ((c = getchar()) != EOF) {
+    if (c == '\t')
+      printf("\\t");
+    else if (c == ' ')
+      printf("\\b");
+    else if (c == '\\')
+      printf("\\\\");
+    else
+      putchar(c);
+  }
 
-    putchar('\n');
+  putchar('\n');
 
-    return 0;
+  return 0;
 }

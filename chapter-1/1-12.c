@@ -12,19 +12,18 @@ on the terminal to use the text file as input.
 #define YES 1
 
 int main() {
-    int c;
-    int needLine = NO;
-    while((c = getchar()) != EOF) {
-        if (c != ' ' && c != '\n' && c != '\t') {
-            putchar(c);
-            needLine = YES;
-        }
-        else if (needLine == YES) {
-            needLine = NO;
-            putchar('\n');
-        }
+  int c;
+  int needLine = NO;
+  while ((c = getchar()) != EOF) {
+    if (c != ' ' && c != '\n' && c != '\t') {
+      putchar(c);
+      needLine = YES;
+    } else if (needLine == YES) {
+      needLine = NO;
+      putchar('\n');
     }
-    putchar('\n');
+  }
+  putchar('\n');
 
-    return 0;
+  return 0;
 }

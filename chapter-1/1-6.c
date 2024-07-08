@@ -9,18 +9,16 @@ After compiling run ./a.out < 1-6.txt
 on the terminal to use the text file as input.
  */
 
-int main()
-{
-    int c;
+int main() {
+  int c;
 
+  c = getchar();
+  while (c != EOF) {
+    putchar(c);
+    printf(" %d\n", c != EOF);
     c = getchar();
-    while (c != EOF)
-    {
-        putchar(c);
-        printf(" %d\n", c != EOF);
-        c = getchar();
-    }
-    printf("%d\n", c != EOF);
+  }
+  printf("%d\n", c != EOF);
 
-    return 0;
+  return 0;
 }
