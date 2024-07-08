@@ -6,7 +6,7 @@ replacing each string of one or more blanks by a single blank.
 */
 
 /*
-After compiling run ./a.out < input.txt
+After compiling run ./a.out < 1-9.txt
 on the terminal to use the text file as input.
  */
 
@@ -15,7 +15,7 @@ on the terminal to use the text file as input.
 int main()
 {
     int c;
-    int lastCharBlank;
+    int lastCharBlank = 0;
 
     while ((c = getchar()) != EOF)
     {
@@ -25,7 +25,7 @@ int main()
         putchar(c);
     }
 
-    printf("\n");
+    putchar('\n');
 
     return 0;
 }

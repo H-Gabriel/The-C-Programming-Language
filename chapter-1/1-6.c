@@ -5,7 +5,7 @@ Exercise 1-6. Verify that the expression getchar() != EOF is 0 or 1
 */
 
 /*
-After compiling run ./a.out < input.txt
+After compiling run ./a.out < 1-6.txt
 on the terminal to use the text file as input.
  */
 

@@ -4,7 +4,7 @@ What kind of input are most likely to uncover bugs if there are any?
 */
 
 /*
-Answer: Actually... i am not sure.
+Answer: Would probably use a single-word input, a multi-line input and a very large input.
 */
 
 #include <stdio.h>

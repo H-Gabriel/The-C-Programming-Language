@@ -5,7 +5,7 @@ Exercise 1-8. Write a program to count blanks, tabs and newlines.
 */
 
 /*
-After compiling run ./a.out < input.txt
+After compiling run ./a.out < 1-8.txt
 on the terminal to use the text file as input.
  */
 

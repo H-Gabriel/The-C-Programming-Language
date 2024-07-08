@@ -21,9 +21,10 @@ int main() {
         }
         else if (needLine == YES) {
             needLine = NO;
-            printf("\n");
+            putchar('\n');
         }
     }
+    putchar('\n');
 
     return 0;
 }
