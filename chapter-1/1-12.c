@@ -4,7 +4,7 @@ Exercise 1-12. Write a program that prints its input one word per line.
 */
 
 /*
-After compiling run ./a.out < input.txt
+After compiling run ./a.out < 1-12.txt
 on the terminal to use the text file as input.
  */
 
